@@ -1,0 +1,5 @@
+{
+    "key": "ctrl+*", 
+    "command": "workbench.action.tasks.runTask",
+    "args": "Dart: Hot Restart, Reload, and Fix"
+}

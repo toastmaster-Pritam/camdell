@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "157748106197",
+    "project_id": "camdell-app",
+    "storage_bucket": "camdell-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:157748106197:android:6bbd912eda770935a8635c",
+        "android_client_info": {
+          "package_name": "com.android.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyApAdBIGjmpjJ_xCWVl9ys1O-47G3GJpvk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:157748106197:android:efb65027973b8d15a8635c",
+        "android_client_info": {
+          "package_name": "com.camdell.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyApAdBIGjmpjJ_xCWVl9ys1O-47G3GJpvk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,50 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Dart: Hot Restart, Reload, and Fix",
+            "type": "shell",
+            "command": "flutter",
+            "args": [
+                "run",
+                "--hot-restart"
+            ],
+            "problemMatcher": [
+                "$dart-cli"
+            ],
+            "group": "build",
+            "presentation": {
+                "reveal": "always",
+                "panel": "new"
+            },
+            "dependsOn": [
+                "Dart: Hot Reload",
+                "Dart: Fix"
+            ]
+        },
+        {
+            "label": "Dart: Hot Reload",
+            "type": "shell",
+            "command": "flutter",
+            "args": [
+                "run",
+                "--hot-reload"
+            ],
+            "problemMatcher": [
+                "$dart-cli"
+            ]
+        },
+        {
+            "label": "Dart: Fix",
+            "type": "shell",
+            "command": "dart",
+            "args": [
+                "fix",
+                "--apply"
+            ],
+            "problemMatcher": [
+                "$dart-cli"
+            ]
+        }
+    ]
+}
